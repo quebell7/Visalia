@@ -1,4 +1,4 @@
-*{
+* {
 	-moz-box-sizing: border-box; 
      -webkit-box-sizing: border-box; 
      box-sizing: border-box; 
@@ -10,39 +10,221 @@ body {
 }
 
 .content-wrapper {
-	max-width: 1240px;
-	border-right: 1px #faaf4c;
-	border-left: 1px #faaf4c;
-	background-color: white;
+	background: white;
+	max-width: 70%;
 	margin: 0 auto;
+	border: 3px solid red;
 }
+
+
+/***** Header & Nav *****/
+
 
 header {
+	max-width: 70%;
+	border-right: 1px #faaf4c;
+	border-left: 1px #faaf4c;
+	margin: auto;
 	background: url(../images/header-bkc.png) repeat;
-	height: 180px;
+	height: 160px;
 }
 
-.nav {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
+#logo {
+	width: 320px;
+	padding-left: 20px;
+	position: absolute;
+	z-index: 2;
 }
+
+#phone-number {
+	background-color: #faaf4c;
+	width: 23%;
+	height: 35px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 0.9em;
+	color: #6e6348;
+	text-align: center;
+	letter-spacing: .4px;
+	text-transform: uppercase;
+	float: right;
+	margin-right: 33px;
+	padding: 10px;
+}
+
+#number {
+	color: white;
+	padding-left: 2px;
+	display: inline-block;
+}
+
+nav {
+	display: inline-block;
+  	margin: 70px 0px 50px 380px;
+	color: #6e6348;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 1.12em;
+	letter-spacing: .4px;
+}
+
+
+
+/***** Link Styles *****/
+
+a {
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+a:link {
+    color: #6e6348;
+}
+
+a:visited {
+    color: #6e6348;
+}
+
+a:hover {
+    color: #353023;
+}
+
+a:active {
+    color: #6e6348;
+}
+
+/***** Carousel Container *****/
 
 #carousel {
+	margin: 0 auto;
 	height: 500px;
+	
 }
 
 .carousel-item {
-	width: 90%;
+	background: url("../images/sample1.jpg") center center no-repeat;
+	height: 100%;
+  	width: 100%;
+  	background-size: cover !important;
 }
 
+.a-slide{
+  height: 100%;
+  width: 100%;
+  background-size: cover !important;
+  
+}
+.slick-slider{
+  height: 100%;
+}
 
+.slick-list,
+.slick-track {
+  height: 100%;
+}
+
+.slick-prev {
+  left: 0;
+  z-index: 2;
+}
+.slick-next {
+  right: 0;
+}
+
+/***** Main Content Container *****/
+
+
+#we-offer-container {
+	margin-top: 40px;
+	margin-bottom: 20px;
+    background: url(../images/line-bg.png) center no-repeat;
+}
+
+.we-offer {
+	background: white;
+	margin: auto;
+	width: 18%;
+	font-size: 20px;
+    line-height: 24px;
+    color: #bbac93;
+    text-align: center;
+    font-family: "minion-pro", "serif";
+    font-weight: italic;
+}
+
+/***** Small Promos *****/
+
+
+.touts {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0% 6%;
+/*    padding: 2% 2%;*/
+}
+
+.single-promo {
+	display: inline-block;
+	width: 25%;
+
+/*	padding: 2% 3%;*/
+	margin-right: 4%;
+	text-align: center;
+}
+
+h3 {
+	color: #6e6348;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 1.12em;
+	letter-spacing: .4px;
+}
+
+p {
+	font-family: "minion-pro", "serif";
+    text-align: center;
+    font-weight: italic; 
+    color: black;
+}
+
+.button {
+	border-radius: 7px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1.0em;
+	color: #003048;
+	padding: 12px 0;
+  	width: 100%;
+	display: block;
+	margin: 40px auto;
+	text-align: center;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+.button-bottom {
+	color: #333;
+}
+
+.grey{
+  background: #c6c6c6;
+  color: #fff;
+}
+
+.news {
+	background-color: #6e6348;
+	height: 250px;
+}
 
 
 img {
   border: 0;
 }
+
+img.small {
+	border: 12px solid #f7f5ef;
+}
+
+
 
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -71,9 +253,11 @@ img {
 }
 
 
+
+
 footer {
-	display: inline-block;
-	width: 1240px;
+	width: 70%;
+	margin: 0 auto;
 	color: #6e6348;
 	font-family: "minion-pro", "serif";
 	font-size: 1.2em;
