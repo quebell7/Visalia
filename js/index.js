@@ -7,7 +7,7 @@ function pageReady() {
 
 ///nav links
 
-$(".navLine").hover(function showRollover() {
+$(".navline").hover(function showRollover() {
 		 event.preventDefault();
     $(this).addClass("rollover");
     // $(this).show("thickline");
@@ -16,6 +16,12 @@ $(".navLine").hover(function showRollover() {
  		 event.preventDefault();
     $(this).removeClass("rollover");
 } );
+
+$(".mobile-nav-button").click(mobileNavToggle);
+	
+	function mobileNavToggle() {
+		$(".mobile-nav").slideToggle();
+	}
 
 		
 

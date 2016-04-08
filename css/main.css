@@ -26,34 +26,36 @@ header {
 	width: 100%;
 	margin: auto;
 	background: url(../images/header-bkc.png) repeat;
-	height: 140px;
+	height: 120px;
 }
 
 #logo {
 	width: 60%;
 	max-width: 500px;
+	min-width: 200px;
 	padding-left: 20px;
 	position: absolute;
-	z-index: 2;
+	z-index: 500;
+	display: flex;
 }
 
 #phone-number {
-	text-align: center;
-	background-color: #faaf4c;
-	width: 26%;
-	height: 40px;
-	display: inline-block;
-	margin-left: 70.5%;
+	width: 100%;
+	background-color: #6e6348;
 	padding: 10px;
+
 }
 
 .orders {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
 	font-size: 1em;
-	color: #6e6348;
+	color: #FAAF4C;
 	letter-spacing: .4px;
 	text-transform: uppercase;
+	margin-right: 73px;
+	padding-top: 3px;
+	text-align: right; 
 }
 
 strong {
@@ -62,8 +64,9 @@ strong {
 	text-align: right;
 }
 
-nav {
-  	margin: 45px 0px 50px 340px;
+.desktop-nav {
+  	margin: 18px 0px 50px 340px;
+  	display: flex;
 }
 
 
@@ -103,16 +106,20 @@ a:active {
 	opacity: .70;
 }
 
-.navLine {
-	text-align: center;
+.navline {
+	text-align: left;
 	color: #6e6348;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	letter-spacing: .4px;
 	padding-bottom: 7px;
-	padding-top: 7px;
+	padding-top: 8px;
 	margin-right: 25px;
+}
+
+.navline-mobile {
+	margin-right: 0px;
 }
 
 
@@ -171,26 +178,32 @@ a:active {
 #we-offer-container {
 	width: 93%;
 	margin: 0 auto;
-	margin-top: 60px;
-	margin-bottom: 20px;
+	margin-top: 79px;
+    margin-bottom: 20px;
     background: url(../images/line-bg.png) center center repeat-x;
     display: flex;
     justify-content: center;
 }
 
 .we-offer {
-	background: white;
-	margin: auto;
-	width: 18%;
-	font-size: 20px;
+    background: #FCB040;
+    height: 40px;
+    margin: auto;
+    width: 19%;
+    font-size: 18px;
     line-height: 24px;
-    color: #bbac93;
+    color: #6E6348;
     text-align: center;
-    font-family: "minion-pro", "serif";
-    font-style: italic;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* font-weight: 500; */
+    letter-spacing: 0.04em;
+    padding-top: 8.5px;
 }
 
 .flower {
+	margin-top: 8px;
 	width: 25px;
 	height: 25px;
 	background-color: white;
@@ -385,10 +398,85 @@ footer {
 	padding-bottom: 80px;
 }
 
+.mobile-nav-button {
+	width: 40px;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	cursor: pointer;
+}
+
+.line {
+	height: 7px;
+	width: 40%;
+	margin: 5px auto;
+	background: red;
+}
+
+.mobile-nav {
+	border: 1px solid blue;
+	z-index: 1;
+	position: relative;
+
+
+/*	display: none;*/
+}
+
+/* Mobile nav button container */
+.mobile-nav-button {
+    margin-top: -27px;
+    margin-right: 6px;
+    float: right;
+    background: #faaf4c;
+    cursor: pointer;
+    height: 29px;
+    /* display: none; */
+}
+
+/* creates a line for the hamburger nav */
+.line {
+	height:3px;
+	width:65%;
+	margin:5px auto;
+	border-radius:5px;
+	background: #fff;
+	border: none;
+	transition: .25s transform; /* transitions the transform properties */
+}
+
+.line.active.top {
+	background: #000;
+}
+
+.line.active.middle {
+	/* Rotates the line by 45deg */
+    transform: rotate(45deg);	
+}
+
+.line.active.bottom {
+	/* Moves the line up by 11px and rotates it by 45deg */
+	transform: translate(0, -11px) rotate(-45deg);
+}
+
+/* Hide mobile nav in normal view */
+.mobile-nav {
+	display: none;
+	margin-top: -16px;
+}
+
+.mobile-nav li {
+	padding: 10px;
+	background-color: #F7F5EF;
+    border: none;
+    border-top: 1px solid #6E6348;
+}
+
 
 /***** Mobile Devices *****/
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
+	
+
 	.content-wrapper {
 		border: 0;
 	}
@@ -396,22 +484,26 @@ footer {
 	#phone-number {
 		width: 100%;
 		margin: 0;
-		background: #faaf4c;
+		background: #6e6348;;
 	}
 
 	header {
-		height: 80px;
+		height: 45px;
 	}
 
 	#logo{
-		width: 50%;
+		width: 45%;
 		min-width: 100px;
-		padding-left: 00px;
+		padding-left: 0px;
+	}
+
+	.desktop-nav {
+		display: none;
 	}
 
 	.orders {
 	font-size: .8em;
-	text-align: right;	
+	text-align: left;	
 	}
 
 	#item1 {
