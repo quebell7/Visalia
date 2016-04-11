@@ -52,6 +52,11 @@ p {
     font-style: regular;
 }
 
+.container {
+	width: 100%;
+	padding-bottom: 5px;
+}
+
 
 /***** Header & Nav *****/
 
@@ -387,6 +392,10 @@ footer {
 	margin-right: 30px;
 }
 
+#social-alt {
+	display: none;
+}
+
 .icons {
 	font-size: 2em;
 	color: white;
@@ -468,6 +477,10 @@ footer {
 	display: none;
 }
 
+.mobile-footer {
+	display: none;
+}
+
 
 
 /***** Smaller Browser Windows *****/
@@ -507,7 +520,7 @@ footer {
 
 /***** Mobile Devices - iPad*****/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
 
 
 	#phone-number {
@@ -573,16 +586,16 @@ footer {
 
 	.news {
 		padding-left: 40px;
-		height: 275px;
+		height: 290px;
 	}
 
 	.bottom-promo {
     margin: -10px auto;
 	}
 
-.news-promo {
+	.news-promo {
 	width: 100%;
-	margin: 0 auto;
+	margin: 17px -40px;
 
 }
 
@@ -601,6 +614,20 @@ footer {
 		padding-bottom: 0px;
 	}
 
+	#social {
+	display: block;	
+	float: right;
+}
+
+	.container {
+	width: 97%;
+	padding-bottom: 5px;
+}
+
+	.vtec {
+		width: 60%;
+	}
+
 
 
 
@@ -608,7 +635,7 @@ footer {
 /***** iPhone Devices *****/
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 736px) {
 	
 	header {
 		background: #6e6348;
@@ -633,10 +660,8 @@ footer {
 	height: 32px;
 	}
 
-	.slick-dots li button
-	{
-	   
-    height: 13px;
+	.slick-dots li button {
+	height: 13px;
 	}
 
 	.orders {
@@ -666,10 +691,6 @@ footer {
     max-width: none;
 	}
 
-	.news-promo {
-	margin: 0%;
-	}
-
 	.news {
 	display: none;
 	}
@@ -679,11 +700,6 @@ footer {
 	padding-left: 7%;
     background-color: #6e6348;
     padding-top: 20px;
-	}
-
-	.mobile-call {
-	float: left;
-	padding-right: 40px;
 	}
 
 	h4 {
@@ -707,37 +723,87 @@ footer {
 	}
 
 	footer {
-		padding: 0px;
+	padding: 0px 0px 0px 0px;
+	height: 100px;
+	}
+	
+
+	.footer-text {
+		margin-top: 15px;
+		padding-right: 0px;
+	}
+
+	.sm-number {
+		float: right;
+		border-left:none;
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+
+
+	#social {
+		display: none;	
+	}
+
+	#social-alt {
+		display: block;
 		padding-top: 10px;
-		height: 125px;
+		text-align: center;
+		width:	100%;
+	}
+
+	.container {
+	margin-left: 15px;
+	}
+
+	.vtec-headline {
+	margin-top: -22px;
+
+}
+
+/***** iPhone 5  *****/
+
+
+@media only screen and (max-width: 320px) {
+
+
+	.vtec {
+    width: 35%;
+	}
+
+	.vtec-headline {
+	width: 60%;
+	margin-top: -22px;
+	}
+
+	h4 {
+	font-size: 1.1em;
+	}
+
+	footer {
+	height: 150px;
+	}
+
+	.container {
+	margin-left: 0px;
 	}
 
 	.footer-text {
-		text-align: center;
+		padding-left: 50px;
+	}
+
+	.sm-number {
+		float: left;
+		padding-left: 100px;
 		padding-right: 0px;
-		margin-bottom: 30px;
 	}
-#social {
-    float: none;
-    text-align: center;
-    margin: 0 auto;
+
+	#social-alt {
+		padding-top: 45px;
+	}
+
 }
 
 
 
-}
 
-
-
-
-
-
-/*@media only screen and (max-width: 768px) {
-	#logo{
-		min-width: 125px;
-	}
-
-
-/*@media (min-width: 768px) {
-  .navbar-header {
-    float: left;
