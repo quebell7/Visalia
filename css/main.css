@@ -83,6 +83,7 @@ header {
 	background-color: #6e6348;
 	padding: 10px;
 
+
 }
 
 .orders {
@@ -416,7 +417,6 @@ footer {
 	height: 7px;
 	width: 40%;
 	margin: 5px auto;
-	background: red;
 }
 
 .mobile-nav {
@@ -426,13 +426,13 @@ footer {
 
 /* Mobile nav button container */
 .mobile-nav-button {
-    margin-top: -25px;
+    margin-top: -28px;
     margin-right: 6px;
     float: right;
     background: #faaf4c;
     cursor: pointer;
     height: 29px;
-     display: none; 
+    display: none; 
 }
 
 /* creates a line for the hamburger nav */
@@ -446,8 +446,9 @@ footer {
 	transition: .25s transform; /* transitions the transform properties */
 }
 
+
 .line.active.top {
-	background: #000;
+	background: #faaf4c;
 }
 
 .line.active.middle {
@@ -463,14 +464,16 @@ footer {
 /* Hide mobile nav in normal view */
 .mobile-nav {
 	display: none;
-	margin-top: -16px;
+	width: 100%;
+	/*margin-top: 5px;*/
+	background-color: #faaf4c;
 }
 
 .mobile-nav li {
 	padding: 10px;
 	background-color: #F7F5EF;
     border: none;
-    border-top: 1px solid #6E6348;
+    border-top: 1px solid #faaf4c;
 }
 
 .alt-footer {
@@ -529,11 +532,12 @@ footer {
 
 	#phone-number {
 		width: 100%;
-		padding-bottom: 17px;
-		background: #6e6348;
+		padding-bottom: 0px;
 	}
 
 	header {
+		background: none;
+		background-color: #6e6348;
 		height: 50px;
 	}
 
@@ -555,15 +559,16 @@ footer {
 	}
 
 	.mobile-nav-button {
-		margin-top: -26px;
 		display: block;
-		height: 29px;
 	}
 
 	#carousel {
 		height: 320px;
+		background: url("../images/sample1.jpg") no-repeat;
+		background-position: 80% 21%;
 	}
 
+	
 	#item1 {
 		background-position: 80% 21%;
 	}
@@ -769,7 +774,10 @@ footer {
 
 
 @media only screen and (max-width: 320px) {
-
+	
+	.we-offer {
+	width: 50%;
+	}
 
 	.vtec {
     width: 35%;

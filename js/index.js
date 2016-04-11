@@ -21,6 +21,7 @@ $(".mobile-nav-button").click(mobileNavToggle);
 	
 	function mobileNavToggle() {
 		$(".mobile-nav").slideToggle();
+		// $(this)addClass("close");
 	}
 
 		
