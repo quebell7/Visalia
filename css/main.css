@@ -21,7 +21,7 @@ ul {
 	background: white;
 	border-right: 1px solid #faaf4c;
 	border-left: 1px solid #faaf4c;
-	width: 80%;
+	width: 90%;
 	max-width: 75%;
 	max-width: 1240px;
 	margin: 0 auto;
@@ -72,7 +72,7 @@ header {
 	width: 60%;
 	max-width: 29%;
     min-width: 270px;
-	padding-left: 2.0%;
+	padding-left: 1.7%;
 	position: absolute;
 	z-index: 1;
 	display: flex;
@@ -81,7 +81,8 @@ header {
 #phone-number {
 	width: 100%;
 	background-color: #6e6348;
-	padding: 10px;
+	/*padding: 10px;*/
+	height: 40px;
 
 
 }
@@ -93,8 +94,8 @@ header {
 	color: #FAAF4C;
 	letter-spacing: .4px;
 	text-transform: uppercase;
-	margin-right: 73px;
-	padding-top: 3px;
+	margin-right: 25px;
+	padding-top: 10px;
 	text-align: right; 
 }
 
@@ -196,18 +197,18 @@ a:active {
 }
 
 .slick-prev {
-  left: 100;
+  left: 75px;
   z-index: 3;
 }
 .slick-next {
-  right: 38px;
+  right: 90px;
 }
 
 /***** Main Content Container *****/
 
 
 #we-offer-container {
-	width: 93%;
+	width: 93.5%;
 	margin: 0 auto;
 	margin-top: 79px;
     margin-bottom: 20px;
@@ -368,7 +369,7 @@ footer {
 	width: 100%;
 	height: 75px;
 	background-color: #faaf4c;
-	padding: 20px 30px 30px 60px;
+	padding: 20px 10px 30px 40px;
 	display: inline-block;
 }
 
@@ -408,7 +409,7 @@ footer {
 .mobile-nav-button {
 	width: 40px;
 	margin-top: 10px;
-	margin-right: 10px;
+	margin-right: 20px;
 	float: right;
 	cursor: pointer;
 }
@@ -427,7 +428,7 @@ footer {
 /* Mobile nav button container */
 .mobile-nav-button {
     margin-top: -28px;
-    margin-right: 6px;
+    margin-right: 15px;
     float: right;
     background: #faaf4c;
     cursor: pointer;
@@ -458,15 +459,15 @@ footer {
 
 .line.active.bottom {
 	/* Moves the line up by 11px and rotates it by 45deg */
-	transform: translate(0, -11px) rotate(-45deg);
+	transform: translate(0, -8px) rotate(-45deg);
 }
 
 /* Hide mobile nav in normal view */
 .mobile-nav {
 	display: none;
 	width: 100%;
-	/*margin-top: 5px;*/
-	background-color: #faaf4c;
+	margin-top: -6px;
+	background-color: #6e6348;
 }
 
 .mobile-nav li {
@@ -488,11 +489,6 @@ footer {
 
 /***** Smaller Browser Windows *****/
 
-@media screen and (max-width: 1250px) {
-	.content-wrapper {
-		width: 90%;
-	}
-}
 
 @media screen and (max-width: 1100px) {
 	.content-wrapper {
@@ -542,8 +538,8 @@ footer {
 	}
 
 	.orders {
-	margin-right: 73px;
-	padding-top: 6px;
+	margin-right: 70px;
+	padding-top: 17px;
 	}
 
 	#logo{
@@ -678,11 +674,15 @@ footer {
 	}
 
 	.mobile-nav-button {
-	margin-top: -4px;
+	margin-top: -34px;
+	}
+
+	.mobile-nav {
+	margin-top: -15px;
 	}
 
 	#we-offer-container {
-	margin-top: 43px;
+	margin-top: 40px;
     }
 
 	.we-offer {
@@ -786,6 +786,10 @@ footer {
 	.vtec-headline {
 	width: 60%;
 	margin-top: -22px;
+	}
+
+	.mobile-nav {
+	margin-top: -17px;
 	}
 
 	h4 {
