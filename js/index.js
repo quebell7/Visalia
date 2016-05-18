@@ -23,7 +23,7 @@ $(".mobile-nav-button").click(mobileNavToggle);
 	function mobileNavToggle() {
 		$(".mobile-nav").slideToggle();
 		$(".line").toggleClass("active");
-		$(".orders, #logo").hide();
+		$("#logo").toggle();
 	}
 
 }
