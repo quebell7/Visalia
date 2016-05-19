@@ -65,7 +65,7 @@ header {
 	width: 100%;
 	margin: auto;
 	background: url(../images/header-bkc.png) repeat;
-	height: 120px;
+	height: 106px;
 }
 
 #logo {
@@ -100,7 +100,7 @@ header {
 }
 
 .desktop-nav {
-	margin: 22px 0px 0px 30%;
+	margin: 18px 0px 0px 30%;
   	display: flex;
 }
 
@@ -145,6 +145,7 @@ a:active {
 	padding-bottom: 7px;
 	padding-top: 8px;
 	margin-right: 25px;
+	z-index: 7;
 }
 
 .navline-mobile {
@@ -363,6 +364,7 @@ img.small, .vtec-mobile {
 .bottom-promo {
 	width: 100%;
 	margin: 0 auto;
+	margin-top: -10px;
 }
 
 .news-promo {
@@ -507,7 +509,7 @@ footer {
 	display: none;
 	width: 100%;
 	margin-top: -6px;
-	background-color: #6e6348;
+	background-color: #fff;
 }
 
 .mobile-nav li {
