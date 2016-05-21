@@ -17,9 +17,22 @@
 
     <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
 
-    <link href="../css/slick-theme.css" rel="stylesheet" >
+ 
+   <!--  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <link href="../css/slick-theme.css" rel="stylesheet" > -->
+
+
+
+
 
 		<link href="../css/main.css" rel="stylesheet" >
+
+       <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.css">
+
+      <link href="../css/flickity.css" rel="stylesheet" >
+
+
 
 <!--     <link rel="stylesheet" href="../css/font-awesome.min.css"> -->
 
@@ -30,11 +43,22 @@
     <script src="https://use.typekit.net/tkd0vsb.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-    // <script src="https://use.fontawesome.com/88f6ec0b59.js"></script>
+    <script src="https://use.fontawesome.com/88f6ec0b59.js"></script>
+
+      <script src="../js/flickity.pkgd.min.js"></script>
 
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+<!--         // <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script> -->
+
+
+
+<!--   // <script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.js"></script> -->
+
+
+
+
+  
 
       
 	</head>
@@ -85,16 +109,29 @@
 
 
       <div id="carousel">
-        <div id="item1">
-          <!-- <img src="../images/sample1.jpg"> --> 
+
+        <div class="gallery js-flickity">
+          <div class="gallery-cell" id="item1"></div>
+          <div class="gallery-cell" id="item2"></div>
+          <div class="gallery-cell" id="item3"></div>
+          <div class="gallery-cell" id="item4"></div>
         </div>
 
-        <div id="item2">
-        </div>
+        <!-- <div id="item1"> -->
+          <!-- <img src="../images/sample1.jpg">  -->
+       <!--  </div>
 
-        <div id="item3"></div>
+        <div id="item2"> -->
+          <!-- <img src="../images/sample2.jpg"> --> 
+       <!--  </div>
 
-        <div id="item4"></div>
+        <div id="item3"> -->
+       <!--  <img src="../images/sample3.jpg">  -->
+     <!--  </div>
+
+        <div id="item4"> -->
+        <!-- <img src="../images/sample4.jpg">  -->
+  <!--     </div> -->
 
       </div>
    
@@ -115,15 +152,11 @@
             
               <h3>Food Service</h3>
               
-              <p>Our goal is to meet each customer's unique food service needs while maintaining consistent and reliable bulk dairy products. Our food service products are distributed throughout California  - carried in many schools, restaurants, and cafeterias. </p>
+              <p>We strive to meet each customer's unique food service needs while maintaining consistent and reliable bulk dairy products. Our food service products are distributed throughout the US  - carried in many schools, restaurants, and cafeterias. </p>
 
               <div class="calls">
 
-                <img src="../images/chev-left.png"></img>
-
                 <a class="learn-more">Learn More</a>
-
-              <img src="../images/chev-right.png"></img>
 
               </div>
 
@@ -135,11 +168,9 @@
                 <p>Whether it's producing grocery store end products for single serving or on-the-go food items or simply packing items that will end up in the dairy aisle, Visalia’s retail service can help fulfill and customize products for all your consumer-facing needs. </p>
 
                 <div class="calls">
-                  <img src="../images/chev-left.png"></img>
 
                   <a class="learn-more">Learn More</a>
 
-                <img src="../images/chev-right.png"></img>
               </div>
             </div>
 
@@ -147,18 +178,86 @@
               <img class="small" src="../images/milk-bottles.jpg" alt="Milk Bottles">
               <h3>Co-packing</h3>
               
-                <p>Visalia Dairy Company offers co-packing, which allows our customers to determine their specifications by using their unique formula, customized packaging, and labeling materials. We are committed to giving our customers flexibility. </p>
+                <p>Visalia is committed to giving our customers flexibility. Our co-packing services can be standardized or tailored to our customers' specifications - accommodating unique formulas, customized packaging and labeling materials.  </p>
 
                  <div class="calls">
-                  <img src="../images/chev-left.png"></img>
 
                   <a class="learn-more">Learn More</a>
 
-                <img src="../images/chev-right.png"></img>
               </div>
           </div>
         </section>
 
+        <!--only show in phone view only-->
+
+          <section class="touts-mobile">
+
+            <div class="single-promo"> <img class="small" src="../images/baby-cow.jpg" alt="Calf">
+            </div>
+            
+            <div class="touts-mobile-text">
+                <h3>Food Service</h3>
+              
+                <p>We strive to meet each customer's unique food service needs while maintaining consistent and reliable bulk dairy products. Our food service products are distributed throughout the US  - carried in many schools, restaurants, and cafeterias. </p>
+            </div>
+
+          </section>
+              
+
+            <div class="calls-mobile">
+
+              <a class="learn-more">Learn More</a>
+
+            </div>
+            <hr>
+
+            
+
+        <section class="touts-mobile">
+
+            <div class="single-promo"> <img class="small" src="../images/yogurt.jpg" alt="Yogurt">
+            </div>
+            
+            <div class="touts-mobile-text">
+                <h3>Retail Service</h3>
+              
+                <p>Whether it's producing grocery store end products for single serving or on-the-go food items or simply packing items that will end up in the dairy aisle, Visalia’s retail service can help fulfill and customize products for all your consumer-facing needs. </p>
+            </div>
+
+        </section>
+              
+
+            <div class="calls-mobile">
+
+              <a class="learn-more">Learn More</a>
+
+            </div>
+            <hr>
+
+             <section class="touts-mobile">
+
+            <div class="single-promo"> <img class="small" src="../images/milk-bottles.jpg" alt="Milk Bottles">
+            </div>
+            
+            <div class="touts-mobile-text">
+                <h3>Co-packing</h3>
+              
+                <p>Visalia is committed to giving our customers flexibility. Our co-packing services can be standardized or tailored to our customers' specifications - accommodating unique formulas, customized packaging and labeling materials.  </p>
+            </div>
+
+        </section>
+              
+
+            <div class="calls-mobile">
+
+              <a class="learn-more">Learn More</a>
+
+            </div>
+         
+
+              
+            
+     
 
 
   <!-- News   ======================================-->
@@ -179,6 +278,11 @@
             
 
           </div>
+
+      
+
+
+
       
     </section>
 
