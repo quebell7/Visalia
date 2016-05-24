@@ -701,10 +701,6 @@ hr {
 		width: 35%;
 	}
 
-	.single-promo {
-	    width:	25%;
-	}
-
 	.touts {
     display: none;
 	}
@@ -724,7 +720,6 @@ hr {
 	}
 
 	p {
-		font-size: 1.3em;
 		text-align: left;
 		line-height: 1.45em;
 	}
@@ -735,12 +730,12 @@ hr {
 	}
 
 	.single-promo {
-		 width: 25%; 
+		 width: 27%; 
 		margin: 1% 2%;
 	}
 
 	.calls-mobile {
-		margin-left: 218px; 
+		margin-left: -11px;
 		margin-bottom: 20px;
 		margin-top: 15px;
     	display: block;
@@ -880,7 +875,7 @@ hr {
 	}
 
 	.calls-mobile {
-    margin-left: 32%;
+    margin-left: 95px;
     margin-top: 7%;
 	}
 
@@ -943,7 +938,8 @@ hr {
 	}
 
 		.calls-mobile {
-	    margin: 0 30%;
+	    margin-left: 78px;
+	    margin-top: 28px;
 	}
 
 }
@@ -961,7 +957,7 @@ hr {
 	}
 
 		.calls-mobile {
-	    margin: 5% 26.5%;
+	    margin-left: 58px;
 	}
 
 		.grey {
