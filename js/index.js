@@ -1,9 +1,7 @@
 $(document).ready(pageReady);
 
 function pageReady() {
-		$('#carousel').slick({
-			dots: true,
-		});
+	
 
 ///nav links
 
@@ -23,7 +21,7 @@ $(".mobile-nav-button").click(mobileNavToggle);
 	function mobileNavToggle() {
 		$(".mobile-nav").slideToggle();
 		$(".line").toggleClass("active");
-		$("#logo").toggle();
+		$("#logo, .orders").toggle();
 	}
 
 }
