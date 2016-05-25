@@ -52,7 +52,7 @@ p {
 
 .container {
 	width: 100%;
-	padding-bottom: 5px;
+	height: auto;
 }
 
 
@@ -290,7 +290,7 @@ h2 {
 /***** Small Promos *****/
 
 
-.touts {
+.touts, .section-touts {
 	margin: 0 auto;
     padding-right: 50px;
     padding-left: 50px;
@@ -431,12 +431,12 @@ footer {
 	width: 100%;
 	height: 75px;
 	background-color: #faaf4c;
-	padding: 20px 10px 30px 40px;
+	padding: 19px 10px 18px 40px;
 	display: inline-block;
 }
 
 .footer-text {
-	margin-top: 8px;
+	margin-top: 5px;
 	text-align: left;
 	color: #6e6348;
 	font-family: "minion-pro", "serif";
@@ -446,7 +446,7 @@ footer {
 }
 
 .sm-number {
-	border-left: 2px solid #6e6348;
+	border-left: 2px solid #D5943E;
 	padding-left: 30px;
 }
 
@@ -456,9 +456,7 @@ footer {
 	margin-right: 30px;
 }
 
-#social-alt {
-	display: none;
-}
+
 
 .icons {
 	font-size: 2em;
@@ -471,29 +469,46 @@ footer {
 /* Content on interior pages */
 
 .sub-header {
-	width: 100%;
-	margin-left: 80px;
-	margin-bottom: -20px;
+	margin: 0 6.5%;
+    margin-bottom: -21px;
+    display: inline-block;
 }
 
 .double-promo {
     width: 50%;
-    margin: 1% 2.5%;
+    margin: 1% 2.5% 3% 2.5%;
     text-align: left;
 /*    max-width: 300px;*/
 }
 
 .single-promo-web {
-    margin: 3% 2.5%;
+    margin: -1% auto 1% auto;
+}
+
+.right-img {
+	width: 47%;
+    margin-top: .5%;
+    margin-bottom: 2%;
+	float: right;
+}
+
+.left-img {
+	width: 47%;
+	float: left;
+}
+
+.margins {
+	margin: 1.5% 6% 5% 0;
+}
+
+.padding {
+	padding-top: 8px;
 }
 
 .orange-rule {
-    width: 93.5%;
-    margin: 0 auto;
+    height: 1px;
     background: url(../images/line-bg.png) center center repeat-x;
 }
-
-
 
 
 .mobile-nav-button {
@@ -784,21 +799,16 @@ hr {
 		padding-bottom: 0px;
 	}
 
-	#social {
-	display: block;	
-	float: right;
+
+	footer {
+	padding: 23px 10px 20px 40px;
 	}
 
-	.container {
-	width: 97%;
-	padding-bottom: 5px;
-	}
 
 	.vtec {
     width: 28%;
     float: left;
     margin-right: 19px;
-    border: 6px solid #f7f5ef;
 	}
 
 }
@@ -894,38 +904,26 @@ hr {
 
 
 	footer {
-	padding: 0px 0px 0px 0px;
-	height: 100px;
+	 	padding: 0px 15px 0px 15px;
+	 	    text-align: center;
 	}
 	
 
 	.footer-text {
 		margin-top: 15px;
-		padding-right: 0px;
+		   padding-right: 6px;
 	}
 
 	.sm-number {
-		float: right;
-		border-left:none;
-		padding-left: 0px;
-		padding-right: 15px;
+		    padding-left: 10px;
 	}
-
 
 	#social {
-		display: none;	
+	margin-right: 105px;
+    padding-top: 24px;
+    padding-bottom: 20px;
 	}
 
-	#social-alt {
-		display: block;
-		padding-top: 10px;
-		text-align: center;
-		width:	100%;
-	}
-
-	.container {
-	margin-left: 15px;
-	}
 }
 
 
@@ -940,6 +938,18 @@ hr {
 		.calls-mobile {
 	    margin-left: 78px;
 	    margin-top: 28px;
+	}
+
+		.vtec {
+		border: 6px solid #f7f5ef;
+	}
+
+		footer {
+		padding: 0px 0px 0px 0px;
+	}
+
+		#social {
+	    margin-right: 95px;
 	}
 
 }
@@ -962,6 +972,14 @@ hr {
 
 		.grey {
 		font-size: 1.1em;
+	}
+
+		.sm-number {
+		 border: 0px;
+	}
+
+	#social {
+		  margin-right: 73px;
 	}
 
 }
