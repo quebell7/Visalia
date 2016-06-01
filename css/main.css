@@ -468,10 +468,14 @@ footer {
 
 /* Content on interior pages */
 
-.sub-header {
-	margin: 0 6.5%;
-    margin-bottom: -21px;
-    display: inline-block;
+.col-product-content {
+	margin-left: 8%;
+    margin-bottom: -1%;
+}
+
+.product-content {
+	margin: 0% 7.5% 2% 7.5%;   
+    display: inline-block;  
 }
 
 .double-promo {
@@ -506,6 +510,8 @@ footer {
 }
 
 .orange-rule {
+	margin: 0 auto;
+	width: 85%;
     height: 1px;
     background: url(../images/line-bg.png) center center repeat-x;
 }
@@ -593,7 +599,7 @@ footer {
 
 /* Hide mobile nav in normal view */
 
-.touts-mobile {
+.touts-mobile, .yogurt-mobile, .full-width {
 	display: none;
 }
 
@@ -734,6 +740,21 @@ hr {
 		margin-right: 30px;
 	}
 
+
+	.col-product-content {
+	margin-left: 7%;
+}
+
+	.single-promo-web {
+    margin: 3% auto;
+	}
+
+
+	.section-touts {
+		padding-right: 30px;
+  		padding-left: 30px;
+	}
+
 	p {
 		text-align: left;
 		line-height: 1.45em;
@@ -825,7 +846,7 @@ hr {
 	}	
 
 	#logo{
-		min-width: 180px;
+		min-width: 160px;
 	}
 
 	.desktop-nav {
@@ -841,7 +862,7 @@ hr {
 	}
 
 
-	.orders {
+	.orders, .section-touts {
 	display: none;
 	}
 
@@ -868,10 +889,10 @@ hr {
 	width: 45%;
 	}
 
-	.touts-mobile {
-    display: block;
+	.yogurt-mobile {
+	display: block;
     width: 100%;
-    margin: 7% auto;
+    margin: 7% .5%;
 	}	
 
 	.single-promo {
@@ -879,9 +900,35 @@ hr {
 		margin: 0 auto;
 	}
 
+	.full-width {
+		display: block;
+		width: 85%;
+		margin: 0 auto;
+		margin-bottom: 3%;
+		margin-top: 3%;
+	}
+
 	.touts-mobile-text {
     width: 82%;
     margin: 0 auto;
+	}
+
+	.product-content {
+	margin: 5% 6%;
+	}
+
+	.left-img {
+	width: 100%;
+	}
+
+	.right-img {
+	width: 100%;
+	 margin-top: 20px;
+	 float: none;
+	}
+
+	.col-product-content {
+	margin: 0 auto;
 	}
 
 	.calls-mobile {
@@ -892,6 +939,15 @@ hr {
 	.mobile-news {
 	padding: 6%;
 	}
+
+/*	.orange-sections {
+		margin-top: 27px;
+		margin-bottom: 0px;
+	}*/
+
+/*	.section-touts {
+		display: none;
+	}*/
 
 	h3, p {
     text-align: center;
