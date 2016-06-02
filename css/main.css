@@ -216,7 +216,7 @@ a:active {
 	margin: 7% auto 3% auto;
     background: url(../images/line-bg.png) center center repeat-x;
     display: flex;
-    justify-content: center;
+/*    justify-content: center;*/
 }
 
 .we-offer {
