@@ -515,6 +515,56 @@ footer {
     background: url(../images/line-bg.png) center center repeat-x;
 }
 
+/* Packaging Page */
+.pck-col {
+	width: 50%;
+}
+
+#chart {
+	margin: 0 auto;
+	width: 87%;
+}
+
+table, td, th {
+    border: 1px solid black;
+    background-color: #f7f5ef;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+th {
+    height: 45px;
+    background-color: #6E6348;
+    color: #FCB040;
+    font-weight: 500;
+    letter-spacing: .07em;
+}
+
+td {
+	height: 55px;
+/*	padding-left: 2%;*/
+}
+
+.check-mark {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #6E6348;
+}
+
+.product-type {
+	text-align: center;
+/*	padding-left: 55px;*/
+	font-size: .75em;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
 
 .mobile-nav-button {
 	width: 40px;
@@ -539,6 +589,12 @@ footer {
 
 .contact {
 	background: url(../images/vfiles19124.jpg) left center no-repeat;
+}
+
+.packaging {
+	background: url(../images/pck-hdr.jpg) 100% 27% no-repeat;
+	background-size: 140%;
+	/*background-position: 0 35%;*/
 }
 
 
