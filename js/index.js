@@ -22,8 +22,9 @@ $(".mobile-nav-button").click(mobileNavToggle);
 		$(".mobile-nav").slideToggle();
 		$(".line").toggleClass("active");
 		$("#logo").toggle();
-		
-		$(".orders").toggle();
+		    if ($(window).width() > 768) {
+      	$(".orders").toggle();
+    	}
 	}
 
 }
