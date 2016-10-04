@@ -437,10 +437,14 @@ h4 {
 	color: black;
 }
 
+
 .italic {
 	color: #6E6347;
 }
 
+.bold {
+	font-weight: 700;
+}
 
 .mobile-news {
 	display: none;
@@ -448,31 +452,37 @@ h4 {
 
 footer {
 	width: 100%;
+	margin: 0 auto;
 	background-color: #faaf4c;
-	padding: 19px 10px 18px 40px;
+	padding: 15px 53px 10px 53px;
 	display: inline-block;
 
 }
 
+.footer-container {
+	margin: 0 auto;
+	display: inline-block;
+}
+
 .footer-text {
+	display: block;
+    float: left;
 	margin-top: 5px;
 	text-align: left;
 	color: #6e6348;
 	font-family: "minion-pro", "serif";
 	font-size: 1em;
-	display: inline-block;
-	padding-right: 20px;
+/*	display: inline-block;*/
+/*	padding-right: 20px;*/
 }
 
 .sm-number {
 	border-left: 2px solid #D5943E;
-	padding-left: 30px;
+	padding-left: 300px;
 }
 
 #social {
 	float: right;
-	color: white;
-	margin-right: 30px;
 }
 
 
@@ -782,7 +792,9 @@ hr,
 .calls-mobile,
 .touts-mobile,
 .yogurt-mobile,
-.full-width {
+.full-width, 
+.i5-footer-container,
+.i5-social {
 	display: none;
 }
 
@@ -1035,9 +1047,13 @@ hr,
 	}
 
 
-	footer {
+/*	footer {
 	padding: 23px 10px 20px 40px;
-	}
+	}*/
+
+/*	.i5-social{
+		display: none;
+	}*/
 
 
 	.vtec {
@@ -1158,7 +1174,7 @@ hr,
 	}
 
 	.touts-mobile {
-		    display: block;
+	display: block;
     width: 100%;
     margin: 0 auto;
 	}
@@ -1230,11 +1246,16 @@ hr,
 		    padding-left: 10px;
 	}
 
-	#social {
+/*	#social {
 	margin-right: 105px;
     padding-top: 24px;
     padding-bottom: 20px;
-	}
+	}*/
+
+	#social {
+	float: none;
+	margin-bottom: 5px;
+}
 
 	form, input, textarea {
 	width: 100%;
@@ -1267,9 +1288,6 @@ hr,
 		padding: 0px 0px 0px 0px;
 	}
 
-		#social {
-	    margin-right: 95px;
-	}
 
 
 }
@@ -1277,6 +1295,11 @@ hr,
 /***** iPhone 5  *****/
 
 @media only screen and (max-width: 320px) {
+
+	.i5-footer-container{
+		display: block;
+		margin-top: 4px;
+	}
 
 		#logo {
 		min-width: 130px;
@@ -1303,8 +1326,33 @@ hr,
 		 border: 0px;
 	}
 
+
+	.footer-text{
+		float: none;
+		text-align: center;
+		margin-top: 1px;
+	}
+
+	.footer-container{
+		display: none;
+	}
+
+
 	#social {
-		  margin-right: 73px;
+		display: none;
+		margin-right: 73px;
+
+	}
+
+	.icons {
+		padding-left: 5px;
+	}
+
+	.i5-social {
+		display: inline-block;
+		margin-bottom: 10px;
+		margin-top: 5px;
+
 	}
 
 	
