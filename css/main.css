@@ -634,9 +634,8 @@ td {
 /* Contact Page */
 
 .contact {
-	background: url(../images/visalia-ca.jpg) center center no-repeat;
-	background-size: 100%;
-	background-position-y: -100px; 
+	background: url(../images/visalia-ca.jpg) 100% 27% no-repeat;
+	background-size: 140%;
 }
 
 .packaging {
@@ -666,6 +665,7 @@ form, input, textarea {
 
 input[type=submit] {
 	width: 20%;
+	min-width: 100px;
 	padding: 8px 20px;
 	background-color: #6e6348;
     border: none;
