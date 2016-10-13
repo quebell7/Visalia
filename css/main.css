@@ -392,7 +392,7 @@ img.small, .vtec-mobile {
 
 .news {   
 	background-color: #6e6348;
-    padding: 3% 3.5%;
+    padding: 3% 3.5% 5% 3.5%;
 }
 
 .bottom-promo {
@@ -407,6 +407,7 @@ img.small, .vtec-mobile {
 .vtec {
 	margin-right: 30px;
     max-width: 225px;
+    max-height: 240px;
     border: 12px solid #f7f5ef;
 }
 
@@ -1020,7 +1021,6 @@ hr,
 
 	.news {
 	display: none;
-	min-height: 350px;
 	}
 
 	.mobile-news {
