@@ -1020,6 +1020,7 @@ hr,
 
 	.news {
 	display: none;
+	min-height: 350px;
 	}
 
 	.mobile-news {
