@@ -191,22 +191,12 @@ a:active {
   color: white;
 }
 
-#item1 {
-	background: url("../images/sample1.jpg") center center no-repeat;
-}
 
-#item2 {
-	background: url("../images/sample2.jpg") center center no-repeat;
-}
 
 #item3 {
 	background: url("../images/sample3.jpg") center center no-repeat;
 }
 
-#item4 {
-	background: url("../images/sample4.jpg") center center no-repeat;
-  	background-position: 0 100%; 
-}
 
 #item5 {
 	background: url("../images/sample5.jpg") center center no-repeat;
@@ -216,9 +206,6 @@ a:active {
 	background: url("../images/sample6.jpg") center center no-repeat;
 }
 
-#item7 {
-	background: url("../images/sample7.jpg") center center no-repeat;
-}
 
 #item8 {
 	background: url("../images/sample8.jpg") center center no-repeat;
@@ -635,7 +622,7 @@ td {
 /* Contact Page */
 
 .contact {
-	background: url(../images/visalia-ca.jpg) 100% 35% no-repeat;
+	background: url(../images/visalia-ca.jpg) 100% 27% no-repeat;
 	background-size: 100%;
 }
 
@@ -908,22 +895,26 @@ hr,
 		height: 300px;
 	}
 
-	#item1 {
-		background-position: 80% 21%;
+	#item8 {
+		background-position: 32% 45%;
 	}
 
-	#item2 {
-		background-position-x: 23%;
+	#item6 {
+		background-position: 23% 23%;
 	}
 
 	#item3 {
-    background-position-x: 27%;
-    background-position-y: 60%;
+    background-position: 17% 50%;
 	}
 
-	#item4 {
-		background-position-x: 50%;
+	#item5 {
+		background-position-x: 40%;
 		background-position-y: 81%;
+	}
+
+	#item9 {
+		background-position-x: 60%;
+		background-position-y: 68%;
 	}
 
 	.orange-sections {
