@@ -183,7 +183,7 @@ a:active {
 
 /* cell number */
 .gallery-cell:before {
-  display: block;
+  display: none;
   text-align: center;
   content: counter(gallery-cell);
   line-height: 200px;
