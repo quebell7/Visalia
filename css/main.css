@@ -642,7 +642,7 @@ td {
 }
 
 
-form, input, textarea {
+/*form, input, textarea {
     font-family : "minion-pro", "serif";
     margin-bottom : 12px;
     font-size : 1.2em;
@@ -667,7 +667,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color : #FFB343;
-}
+}*/
 
 /*.form-label.form-label-top {
     font-family : "minion-pro", "serif";
