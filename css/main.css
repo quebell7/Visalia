@@ -641,34 +641,127 @@ td {
 	padding-bottom: 20px;
 }
 
-form, input, textarea {
-	width: 60%;
-    font-family: "minion-pro", "serif";
-    margin-bottom: 20px;
-    font-size: 1.2em;
-    color: #6E6347;
 
+form, input, textarea {
+    font-family : "minion-pro", "serif";
+    margin-bottom : 12px;
+    font-size : 1.2em;
+    color : #6E6347;
+    width: 67%;
 }
 
-
 input[type=submit] {
-	width: 20%;
-	min-width: 100px;
-	padding: 8px 20px;
-	background-color: #6e6348;
-    border: none;
-    color: white;
-    font-size: .90em;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .10em;
-    cursor: pointer;
+    width : 20%;
+    min-width : 100px;
+    padding : 8px 10px;
+    background-color : #6e6348;
+    border : none;
+    color : white;
+    font-size : .90em;
+    font-family : 'Roboto Condensed', sans-serif;
+    font-weight : 700;
+    text-transform : uppercase;
+    letter-spacing : .10em;
+    cursor : pointer;
 }
 
 input[type=submit]:hover {
-    background-color: #FFB343;
+    background-color : #FFB343;
 }
+
+/*.form-label.form-label-top {
+    font-family : "minion-pro", "serif";
+    font-size : 1.2em;
+    color : #6E6347;
+    font-weight : normal;
+}
+
+#label_15 {
+    font-weight : normal;
+}
+
+#label_17 {
+    font-weight : normal;
+}
+
+.form-all {
+    padding : 0px;    
+    width: 100%;
+}
+
+#last_15 {
+    height : 25px;
+    margin-left : 20px;
+}
+
+#input_16 {
+    height : 25px;
+}
+
+.form-line {
+    padding : 7px;
+}
+
+.form-sub-label {
+    font-family : "minion-pro", "serif";
+    font-size : .90em;
+    color : #6E6347;
+}
+
+#sublabel_last {
+    margin-left : 22px;
+}
+
+#first_15 {
+    height : 25px;
+}
+
+#input_17 {
+
+}
+
+.form-input-wide.jf-required {
+    display : inline-block;
+}
+
+#id_17 {
+
+}
+
+.form-sub-label-container {
+
+}
+
+#cid_15 span.form-sub-label-container {
+
+}
+
+.form-buttons-wrapper {
+
+}
+
+.form-submit-button {
+    width : 20%;
+    min-width : 100px;
+    padding : 8px 20px;
+    background-color : #6e6348;
+    border : none;
+    color : white;
+    font-size : .90em;
+    font-family : 'Roboto Condensed', sans-serif;
+    font-weight : 700;
+    text-transform : uppercase;
+    letter-spacing : .10em;
+    cursor : pointer;
+}
+
+form-submit-button:hover {
+    background-color : #FFB343;
+}
+
+#id_15 {
+
+}*/
 
 /* Company Page */
 
